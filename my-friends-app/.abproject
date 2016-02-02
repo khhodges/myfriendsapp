@@ -9,19 +9,18 @@
   ],
   "CorePlugins": [
     "com.telerik.feedback@2.0.0",
-    "com.telerik.mobiletesting",
-    "com.telerik.plugin.eqatecanalytics",
     "com.telerik.plugin.telerikanalytics@3.3.2",
-    "nl.x-services.plugins.socialsharing@5.0.6",
-    "nl.x-services.plugins.toast@2.3.1",
-    "org.apache.cordova.camera",
-    "org.apache.cordova.device",
-    "org.apache.cordova.device-orientation",
-    "org.apache.cordova.dialogs",
-    "org.apache.cordova.geolocation",
-    "org.apache.cordova.keyboard",
-    "org.apache.cordova.media-capture",
-    "org.apache.cordova.splashscreen"
+    "cordova-plugin-camera",
+    "cordova-plugin-device",
+    "cordova-plugin-device-orientation",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-geolocation",
+    "cordova-plugin-media-capture",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-whitelist",
+    "nl.x-services.plugins.socialsharing@5.0.10",
+    "nl.x-services.plugins.toast@2.4.0",
+    "org.apache.cordova.labs.keyboard"
   ],
   "DeviceOrientations": [
     "Portrait",
@@ -29,8 +28,8 @@
   ],
   "iOSStatusBarStyle": "Default",
   "AndroidHardwareAcceleration": "true",
-  "FrameworkVersion": "3.7.0",
-  "BundleVersion": "1.0",
+  "FrameworkVersion": "5.0.0",
+  "BundleVersion": "2.0",
   "iOSDisplayName": "",
   "iOSDeviceFamily": [
     "1",
@@ -38,9 +37,9 @@
   ],
   "iOSBackgroundMode": [],
   "AndroidVersionCode": "1",
-  "DisplayName": "Loyal Friends",
+  "DisplayName": "Defender",
   "Author": "kjhh",
-  "Description": "my-friends-app",
+  "Description": "Defender provides a layer of self control over unguarded sharing on the internet.",
   "WP8TileTitle": "",
   "WP8ProductID": "{003f5d01-c32e-4f2f-8a44-f2e7b1f00008}",
   "WP8PublisherID": "{b6e0580a-d18c-47b9-b482-6e009726ed8c}",
@@ -57,12 +56,5 @@
   "WP8WindowsPublisherName": "CN=Telerik",
   "WP8PackageIdentityName": "1234Telerik.com.telerik.everlivefriendshybrid",
   "WPSdk": "8.1",
-  "CordovaPluginVariables": {
-    "com.telerik.feedback": {
-      "API_KEY": "3t5oa8il0d0y02eq",
-      "API_URL": "https://platform.telerik.com/feedback/api/v1",
-      "ENABLE_SHAKE": "True"
-    }
-  },
   "iOSDeploymentTarget": "6.0"
 }

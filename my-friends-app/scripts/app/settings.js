@@ -11,7 +11,7 @@ var appSettings = {
 
     eqatec: {
         productKey: '3d777b61e0be40f5b61964bb1b05cbbb',  // Put your Tekerik Analytics project key here
-        version: '1.0.0.0' // Put your application version here
+        version: '2.0.0.0' // Put your application version here
     },
     
     feedback: {
